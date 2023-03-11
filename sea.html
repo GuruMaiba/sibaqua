@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>СибирьАква - Изготовление, оформление и обслуживание аквариумов</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="shortcut icon" href="img/main-favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div id="burger-container">
+			<div id="burger"><span>&nbsp;</span><span>&nbsp;</span></div>
+		</div>
+		<ul class="burger-nav__list">
+			<li class="burger-nav__item toggle-item"> <a class="burger-nav__link" href="/">Аквариумы</a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/bubblepanels.html">Пузырьковые панели</a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/service.html">Обслуживание </a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/portfolio.html">Портфолио</a></li>
+			<div class="callback"><a class="phone-num" href="#" data-toggle="modal" data-target="#myModal"> 8 (3462) 380-374</a></div>
+		</ul>
+		<div class="content">
+			<header class="header"><a href="index.html"><img class="logo" alt="Сибирь аква" src="img/logo.png"></a>
+				<ul class="nav__list" id="menu">
+					<li class="nav__item"> <a class="active" href="/">Аквариумы</a></li>
+					<li class="nav__item"><a class="is-black nav__item_link" href="bubblepanels.html">Пузырьковые панели        </a></li>
+					<li class="nav__item"><a class="is-black nav__item_link" href="service.html">Обслуживание</a></li>
+					<li class="nav__item"><a class="is-black nav__item_link" href="portfolio.html">Портфолио          </a></li>
+				</ul>
+				<div class="callback"><a class="is-black dashed-black phone-num" hef="" data-toggle="modal" data-target="#myModal"> 8 (3462) 380-374</a></div>
+			</header>
+			<main>
+				<div class="bg-position"></div>
+				<div class="bg-outer sea-head">
+					<div class="page-background bg-sea"></div>
+					<div class="header-position header-w">
+						<header class="header__species">
+							<h1 class="species__title">Морской аквариум</h1>
+						</header>
+					</div>
+				</div>
+				<div class="wrapper">
+					<div class="about-sea-aqua">
+						<p>
+							Морские аквариумы не только красивы сами по себе, но и придают
+							утонченность интерьеру, в котором находятся. За их обитателями интересно
+							и увлекательно наблюдать. Однако за всей этой красотой стоят немалые затраты сил,
+							времени и денег.
+							<p>  
+								Считается, что такие аквариумы сложны для начинающих, и лучше их создавать
+								опытным заводчикам. Причем сложность  не столько в обслуживании, сколько в
+								правильном запуске этой системы. В любом случае, отнестись к этому
+								делу нужно ответственно и серьезно.
+							</p>
+						</p>
+					</div>
+					<div class="calc_sea-aqua"><a class="cost_calc" href="" data-toggle="modal" data-target="#myModal">Расчет стоимост</a><span>морского аквариума производится индивидуально.</span></div>
+				</div>
+			</main>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="popup modal-dialog">
+				<div class="callback-dialog popup-layout" role="document">
+					<div class="modal-header">
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<div class="modal-title" id="myModalLabel" role="document">-  Хотите, чтобы мы перезвонили Вам?</div>
+						<div class="callback-subtitle">Оставьте нам Ваши контактные данные</div>
+					</div>
+					<form class="callback__form">
+						<div class="layout-form">
+							<label class="callback__form_label" for="name">Имя</label>
+							<input class="callback__form_input" type="text" id="name" name="Name" placeholder="Введите ваше имя">
+							<input id="hidden-input" namr="calc" type="text" hidden>
+						</div>
+						<div class="layout-form">
+							<label class="callback__form_label" for="phone">Контактный номер</label>
+							<input class="callback__form_input" type="text" id="phone" name="Phone" placeholder="Введите номре телефона">
+						</div>
+						<button class="btn btn-blue callback__btn" type="submit" id="callbackBtn">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<ul class="footer__nav_list">
+				<li class="footer__nav_item"><a class="footer__nav_link" href="freshwater.html">Пресноводные аквариумы</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="sea.html">Морские аквариумы</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="freshwater.html#aquariumCalculator">Калькулятор аквариума</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="bubblepanels.html">Пузырковые панели</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="service.html">Обслуживание</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="service.html#aquariumService">Калькулятор обслуживания</a></li>
+				<div class="copyright"><img class="logo-developers" src="img/logo-created.png" alt="Студия UNK">
+					<div class="created-by"> <span>Сайт сделан <a class="created-by__link" href="http://unk.im">студией UNK </br></a></span><a class="created-by__link" href>Прочитать о сайте</a></div>
+				</div>
+			</ul>
+		</footer>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="display: none;">
+			<symbol id="wave">
+				<path d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"></path>
+				<path d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z"></path>
+				<path d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z"></path>
+				<path d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z"></path>
+			</symbol>
+		</svg>
+		<div class="water-jar">
+			<div class="water-filling">
+				<div class="percentNum" id="count">0</div>
+				<div class="percentB">%</div>
+			</div>
+			<div class="water" id="water">
+				<svg class="water_wave water_wave_back" viewbox="0 0 560 20">
+					<use xlink:href="#wave"></use>
+				</svg>
+				<svg class="water_wave water_wave_front" viewbox="0 0 560 20">
+					<use xlink:href="#wave"></use>
+				</svg>
+			</div>
+		</div>
+		<div class="preloader"></div>
+	</body>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.mobile.custom.min.js">  </script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/calculate.js"></script>
+	<script src="js/validateForm.js"></script>
+	<script src="js/send-calc-val.js"></script>
+	<script>
+		var cnt=document.getElementById("count"); 
+		var water=document.getElementById("water");
+		var percent=cnt.innerText;
+		var interval;
+		interval=setInterval(function(){ 
+		  percent++; 
+		  cnt.innerHTML = percent; 
+		  water.style.transform='translate(0'+','+(100-percent)+'%)';
+		  if(percent==100){
+		    clearInterval(interval);
+		    
+		  }
+		},10);
+		$(window).load( () => {
+		  $('.preloader, .water-jar').fadeOut();  
+		})
+		
+	</script>
+</html>

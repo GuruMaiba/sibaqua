@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>СибирьАква - Изготовление, оформление и обслуживание аквариумов</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="shortcut icon" href="img/main-favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div id="burger-container">
+			<div id="burger"><span>&nbsp;</span><span>&nbsp;</span></div>
+		</div>
+		<ul class="burger-nav__list">
+			<li class="burger-nav__item toggle-item"> <a class="burger-nav__link" href="/">Аквариумы</a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/bubblepanels.html">Пузырьковые панели</a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/service.html">Обслуживание </a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/portfolio.html">Портфолио</a></li>
+			<div class="callback"><a class="phone-num" href="#" data-toggle="modal" data-target="#myModal"> 8 (3462) 380-374</a></div>
+		</ul>
+		<div class="content">
+			<header class="header"><a href="index.html"><img class="logo" alt="Сибирь аква" src="img/logo.png"></a>
+				<ul class="nav__list" id="menu">
+					<li class="nav__item"> <a href="/">Аквариумы</a></li>
+					<li class="nav__item"><a class="nav__item_link" href="bubblepanels.html">Пузырьковые панели        </a></li>
+					<li class="active nav__item"><a class="nav__item_link" href="service.html">Обслуживание</a></li>
+					<li class="nav__item"><a class="nav__item_link" href="portfolio.html">Портфолио          </a></li>
+				</ul>
+				<div class="callback"><a class="phone-num" hef="" data-toggle="modal" data-target="#myModal"> 8 (3462) 380-374</a></div>
+			</header>
+			<main>
+				<div class="service-page">
+					<div class="service__bg bg-box">
+						<div class="page-background service-bg"></div>
+						<div class="service-page__header">
+							<header class="header__species">
+								<h1 class="species__title">Мы все берем на себя</h1>
+							</header>
+						</div>
+					</div>
+					<section class="service">
+						<h1 class="species__title">Мы все берем на себя</h1>
+						<h3>Юридическим лицам месяц обслуживания бесплатно</h3><span class="service__entered">В стоимость обслуживания уже все включено:</span>
+						<ul class="service__list">
+							<li class="service__item"> <img class="service_logo" src="img/lekarstva.svg"><span class="service_logo_text list__item_title">Лекарства</span></li>
+							<li class="service__item"> <img class="service_logo" src="img/Gidrokhimia.svg"><span class="service_logo_text list__item_title">Гидрохимия</span></li>
+							<li class="service__item"> <img class="service_logo" src="img/Absorbenty.svg"><span class="service_logo_text list__item_title">Абсербенты</span></li>
+							<li class="service__item"> <img class="service_logo" src="img/Eda.svg"><span class="service_logo_text list__item_title">Корм</span></li>
+						</ul>
+					</section>
+					<ul class="service__list-second">
+						<li class="service__item-second"><img class="service_logo" src="img/testy.svg"><span class="list__item_title">Тесты</span><span class="list__item_text"> 
+								Мы заботимся о качестве воды
+								и проводим проверку с помощью специальных тестов
+								(PH,GH,KH,NO2,NO3).</span></li>
+						<li class="service__item-second"><img class="service_logo" src="img/garantia.svg"><span class="list__item_title">Гарантия</span><span class="list__item_text"> 
+								Мы решим любую проблему
+								с аквариумом за 14 дней.</span></li>
+						<li class="service__item-second"> <img class="service_logo" src="img/obsluzhivanie.svg"><span class="list__item_title">Обслуживание</span><span class="list__item_text"> 
+								Абонентское обслуживание включает в себя
+								еженедельный уход. За дополнительные вызовы в случае необходимости
+								вы не платите.</span></li>
+					</ul>
+					<div class="wave"></div>
+					<div class="calculate" id="serviceCalculator">
+						<div class="wrapper">
+							<section class="calculate"> 
+								<div class="calculate__title">Онлайн калькулятор</div>
+								<div class="calculate__controls">
+									<div class="calculate__range">
+										<div class="range-slider"><span class="range-slider__title">Объём</span>
+											<input class="range-slider__range" id="range-service" type="range" value="0" min="0" max="1000" data-event="service">
+											<div class="range-slider__of-to">
+												<sapn>0 л</sapn><span>1000 л +  </span>
+											</div>
+											<div class="range-slider__output">
+												<div class="output__liters"><span class="range-slider__value"> 0</span><span>л</span></div>
+											</div>
+										</div>
+									</div>
+									<div class="total price">&asymp; <span>0</span></div><span class="calculate__text">Указана ориентировочная стоимость. Для уточнения стоимости закажите точный просчет</span>
+									<button class="btn calculate__btn" id="send-calc-val" data-toggle="modal" data-target="#myModal">Подробный расчет</button>
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="wave-end"></div>
+				</div>
+			</main>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="popup modal-dialog">
+				<div class="callback-dialog popup-layout" role="document">
+					<div class="modal-header">
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<div class="modal-title" id="myModalLabel" role="document">-  Хотите, чтобы мы перезвонили Вам?</div>
+						<div class="callback-subtitle">Оставьте нам Ваши контактные данные</div>
+					</div>
+					<form class="callback__form">
+						<div class="layout-form">
+							<label class="callback__form_label" for="name">Имя</label>
+							<input class="callback__form_input" type="text" id="name" name="Name" placeholder="Введите ваше имя">
+							<input id="hidden-input" namr="calc" type="text" hidden>
+						</div>
+						<div class="layout-form">
+							<label class="callback__form_label" for="phone">Контактный номер</label>
+							<input class="callback__form_input" type="text" id="phone" name="Phone" placeholder="Введите номре телефона">
+						</div>
+						<button class="btn btn-blue callback__btn" type="submit" id="callbackBtn">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<ul class="footer__nav_list">
+				<li class="footer__nav_item"><a class="footer__nav_link" href="freshwater.html">Пресноводные аквариумы</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="sea.html">Морские аквариумы</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="freshwater.html#aquariumCalculator">Калькулятор аквариума</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="bubblepanels.html">Пузырковые панели</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="service.html">Обслуживание</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="service.html#aquariumService">Калькулятор обслуживания</a></li>
+				<div class="copyright"><img class="logo-developers" src="img/logo-created.png" alt="Студия UNK">
+					<div class="created-by"> <span>Сайт сделан <a class="created-by__link" href="http://unk.im">студией UNK </br></a></span><a class="created-by__link" href>Прочитать о сайте</a></div>
+				</div>
+			</ul>
+		</footer>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="display: none;">
+			<symbol id="wave">
+				<path d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"></path>
+				<path d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z"></path>
+				<path d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z"></path>
+				<path d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z"></path>
+			</symbol>
+		</svg>
+		<div class="water-jar">
+			<div class="water-filling">
+				<div class="percentNum" id="count">0</div>
+				<div class="percentB">%</div>
+			</div>
+			<div class="water" id="water">
+				<svg class="water_wave water_wave_back" viewbox="0 0 560 20">
+					<use xlink:href="#wave"></use>
+				</svg>
+				<svg class="water_wave water_wave_front" viewbox="0 0 560 20">
+					<use xlink:href="#wave"></use>
+				</svg>
+			</div>
+		</div>
+		<div class="preloader"></div>
+	</body>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.mobile.custom.min.js">  </script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/calculate.js"></script>
+	<script src="js/validateForm.js"></script>
+	<script src="js/send-calc-val.js"></script>
+	<script>
+		var cnt=document.getElementById("count"); 
+		var water=document.getElementById("water");
+		var percent=cnt.innerText;
+		var interval;
+		interval=setInterval(function(){ 
+		  percent++; 
+		  cnt.innerHTML = percent; 
+		  water.style.transform='translate(0'+','+(100-percent)+'%)';
+		  if(percent==100){
+		    clearInterval(interval);
+		    
+		  }
+		},10);
+		$(window).load( () => {
+		  $('.preloader, .water-jar').fadeOut();  
+		})
+		
+	</script>
+</html>

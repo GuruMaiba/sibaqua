@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>СибирьАква - Изготовление, оформление и обслуживание аквариумов</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="shortcut icon" href="img/main-favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/instagrid.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="js/get-insta.js"></script>
+	</head>
+	<body>
+		<div id="burger-container">
+			<div id="burger"><span>&nbsp;</span><span>&nbsp;</span></div>
+		</div>
+		<ul class="burger-nav__list">
+			<li class="burger-nav__item toggle-item"> <a class="burger-nav__link" href="/">Аквариумы</a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/bubblepanels.html">Пузырьковые панели</a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/service.html">Обслуживание </a></li>
+			<li class="burger-nav__item"> <a class="burger-nav__link" href="/portfolio.html">Портфолио</a></li>
+			<div class="callback"><a class="phone-num" href="#" data-toggle="modal" data-target="#myModal"> 8 (3462) 380-374</a></div>
+		</ul>
+		<div class="content">
+			<header class="header"><a href="index.html"><img class="logo" alt="Сибирь аква" src="img/logo.png"></a>
+				<ul class="nav__list" id="menu">
+					<li class="active nav__item"> <a href="/">Аквариумы</a></li>
+					<li class="nav__item"><a class="nav__item_link" href="bubblepanels.html">Пузырьковые панели        </a></li>
+					<li class="nav__item"><a class="nav__item_link" href="service.html">Обслуживание</a></li>
+					<li class="nav__item"><a class="nav__item_link" href="portfolio.html">Портфолио          </a></li>
+				</ul>
+				<div class="callback"><a class="phone-num" hef="" data-toggle="modal" data-target="#myModal"> 8 (3462) 380-374</a></div>
+			</header>
+			<main>
+				<div class="carousel-box">
+					<div class="carousel slide carousel-pos" id="carousel-example-generic" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li class="active" data-target="#carousel-example-generic" data-slide-to="0"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="item item-ov video-box active">
+								<video class="video" width="100%" height="100%" preload loop autoplay>
+									<source id="source-video" src="img/sibaqua.webm" data-src="img/sibaqua-big.webm" type="video/webm">
+								</video>
+								<div class="carousel-caption">
+									<div class="header-bottom">
+										<div class="video-control">
+											<div class="control play"><svg id="play-button" viewbox="0 0 140 140">
+<circle id="circle-btn" cx="70" cy="70" r="65" style="fill:none; stroke:#fff; stroke-width: 12"/>
+<polygon id="shape" points="50,40 100,70 100,70 50,100, 50,40" style="fill:#fff;" stroke="#fff"  stroke-linejoin="round" stroke-width="12">
+<animate id="animate_to_stop" begin="indefinite" fill="freeze" attributeName="points" dur="500ms" to="45,45 95,45 95,95, 45,95 45,45" keySplines="0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline"/>
+<animate id="animate_to_play" begin="indefinite" fill="freeze"  attributeName="points" dur="500ms" to="50,40 100,70 100,70 50,100, 50,40"  keySplines=" 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1;0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline"/>
+</polygon>
+</svg>
+											</div>
+											<div class="layout-wrap fadeInUp" id="video-title">
+												<div class="video-control__title">Запуск аквариума 250л</div><a href="#aquariumCalculator">
+													<button class="calculate-btn btn-white btn" id="calcBtnMain" type="button">Расчитать стоимость аквариума Онлайн</button></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item item__overlay video-box">
+								<div class="item__img-background">
+									<div class="sale-block"><img class="sale-block__img fadeInUpSlide" src="img/slide-aqua.png" alt="Аквариум">
+										<div class="sale-block__text fadeInOpacitySlide">
+											<h2>Юридическим лицам</h2>
+											<h3>Месяц обслуживания бесплатно</h3><a class="sale-block__callback" data-toggle="modal" data-target="#myModal">Заказать консультацию</a>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-caption"></div>
+							</div>
+						</div><a class="left carousel-control" href="#carousel-example-generic" id="prev-slide" role="button" data-slide="prev"><span class="arrow-prev" aria-hidden="true"></span> <span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-example-generic" id="next-slide" role="button" data-slide="next"><span class="arrow-next" aria-hidden="true"></span> <span class="sr-only">Next</span></a>
+					</div>
+				</div>
+				<section class="freshwater" id="freshwater">
+					<div class="freshwater__bg">
+						<div class="page-background bg-fresh"></div>
+						<div class="freshwater__hero">
+							<header class="header__species"><img class="img-responsive" src="img/fresh-aqua.png">
+								<h1 class="species__title">Пресноводный <br><span>аквариумы</span></h1>
+							</header>
+						</div>
+					</div>
+					<div class="wrapper">
+						<section class="goods"><span class="section__text">Все пресноводные аквариумы условно можно разделить на 2 вида:</span>
+							<div class="aquariums__layout">
+								<div class="goods__species">
+									<div class="goods__species_standart">
+										<svg class="aquarium-freshwater" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="110.806mm" height="116.624mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd;" viewbox="0 0 55855 58638" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<defs>
+												<style type="text/css">
+													<![CDATA[
+													.str1 {stroke:black;stroke-width:81.6558}
+													.fills {fill:none}
+													.fil2 {fill:#E6E6E6}
+													.cap, .lighting, .nightstand { 
+													  fill: #fff;
+													  transition: all 0.5s ease-in-out;
+													}
+													.lighting {
+													  fill-opacity: .3;
+													}
+													]]>
+												</style>
+											</defs>
+											<g id="Слой_x0020_1">
+												<metadata id="CorelCorpID_0Corel-Layer"></metadata>
+												<filter id="blur-filter" x="-10" y="-10" width="800" height="800">
+													<fegaussianblur in="SourceGraphic" stddeviation="2"></fegaussianblur>
+													<feOffset dx="2" dy="4"> </feOffset>
+													<feMerge>
+														<feMergeNode></feMergeNode>
+														<feMergeNode in="SourceGraphic"></feMergeNode>
+													</feMerge>
+												</filter>
+												<polygon class="str1 lighting" points="55464,31849 948,32384 744,4784 55566,4682 "></polygon>
+												<polygon class="str1 cap" points="55812,246 55659,4475 42,4603 144,41 "></polygon>
+												<polygon class="fills str1 nightstand" points="170,33847 452,32207 55300,31643 55377,33539"></polygon>
+												<polyline class="fills str1" points="170,33847 324,35128 55582,34513 55377,33539 "></polyline>
+												<line class="fills str1" x1="3852" y1="35184" x2="3852" y2="57445"></line>
+												<line class="fills str1" x1="19896" y1="34974" x2="20153" y2="57445"></line>
+												<line class="fills str1" x1="36145" y1="34761" x2="36454" y2="57445"></line>
+												<line class="fills str1" x1="52141" y1="34552" x2="52141" y2="57445"></line>
+												<line class="fills str1" x1="20046" y1="46040" x2="36322" y2="45779"></line>
+												<line class="fills str1" x1="36343" y1="47117" x2="20063" y2="47337"></line>
+												<rect class="fills str1" x="1526" y="57301" width="52788" height="1296"></rect>
+												<rect class="fil2 str1" x="17622" y="43654" width="576" height="5617"></rect>
+												<rect class="fil2 str1" x="37858" y="43654" width="576" height="5617"></rect>
+												<line class="fills str1" x1="4471" y1="7646" x2="4471" y2="29683"></line>
+												<line class="fills str1" x1="51425" y1="8151" x2="51425" y2="15640"></line>
+												<line class="fills str1" x1="51353" y1="20105" x2="51353" y2="27883"></line>
+												<line class="fills str1" x1="2126" y1="5374" x2="4070" y2="7318"></line>
+												<line class="fills str1" x1="52757" y1="6020" x2="55180" y2="4622"></line>
+												<line class="fills str1" x1="7279" y1="6638" x2="47608" y2="6638"></line>
+											</g>
+										</svg>
+									</div>
+									<div class="goods__about">
+										<div class="goods__title">Стандартный аквариум
+											<ul class="goods__species_list">
+												<li class="goods__species_item" id="lid-avail">– Наличие крышки</li>
+												<li class="goods__species_item" id="lighting-avail">– Освещение замуровано в крышку</li>
+												<li class="goods__species_item" id="nightstand-avail">– Тумбочка больше ширины аквариума</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="goods__species">
+									<div class="goods__species_aquascape">
+										<svg class="aquarium-freshwater" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="110.806mm" height="116.624mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd;" viewbox="0 0 284102 317707" xmlns:xlink="http://www.w3.org/1999/xlink">
+											<defs>
+												<style type="text/css">
+													<![CDATA[
+													.str0 {stroke:black;stroke-width:422.249}
+													.fil0 {fill:none}
+													.edge-nigth, .cover,  .nocover {
+													  fill: #fff;
+													  transition: all 0.5s ease-in-out;
+													}
+													.fil1 {fill:#E6E6E6}
+													.fil2 {fill:white}
+													]]>
+												</style>
+											</defs>
+											<g id="Слой_x0020_1">
+												<metadata id="CorelCorpID_0Corel-Layer"></metadata>
+												<rect class="edge-nigth str0" x="211" y="175846" width="282679" height="13544"></rect>
+												<rect class="fil0 str0" x="211" y="189390" width="281934" height="127733"></rect>
+												<rect class="fil0 str0" x="211" y="189390" width="116533" height="127733"></rect>
+												<rect class="fil0 str0" x="157391" y="189390" width="124754" height="127733"></rect>
+												<rect class="fil0 str0" x="116744" y="268360" width="40647" height="10965"></rect>
+												<rect class="fil1 str0" x="86263" y="235196" width="2979" height="29047"></rect>
+												<rect class="fil1 str0" x="190908" y="235196" width="2979" height="29047"></rect>
+												<polygon class="fil0 str0" points="283360,174214 1456,176978 399,34257 283890,33727 "></polygon>
+												<line class="fil0 str0" x1="19228" y1="48996" x2="19228" y2="162950"></line>
+												<line class="fil0 str0" x1="262033" y1="51602" x2="262033" y2="90332"></line>
+												<line class="fil0 str0" x1="261660" y1="113421" x2="261660" y2="153640"></line>
+												<line class="fil0 str0" x1="7103" y1="37243" x2="17158" y2="47298"></line>
+												<line class="fil0 str0" x1="268922" y1="40587" x2="281448" y2="33355"></line>
+												<line class="fil0 str0 nocover" x1="33751" y1="43782" x2="242296" y2="43782"></line>
+												<rect class="fil2 str0" x="211" y="303952" width="282679" height="13544"></rect>
+												<line class="fil0 str0" x1="2402" y1="34252" x2="33755" y2="5797"></line>
+												<line class="fil0 str0" x1="9479" y1="34238" x2="33010" y2="12128"></line>
+												<rect class="fil1 str0 cover" x="33755" y="211" width="215620" height="18992"></rect>
+												<line class="fil0 str0" x1="279353" y1="32731" x2="249676" y2="5797"></line>
+												<line class="fil0 str0" x1="270787" y1="32423" x2="249188" y2="12128"></line>
+												<line class="fil0 str0" x1="33755" y1="19203" x2="38596" y2="23672"></line>
+												<polyline class="fil0 str0" points="249374,19203 245278,23300 38596,23300 "></polyline>
+											</g>
+										</svg>
+									</div>
+									<div class="goods__about">
+										<div class="goods__title">Акваскейп  аквариум
+											<ul class="goods__species_list">
+												<li class="goods__species_item" id="no-cover">– Отсутствие крышки</li>
+												<li class="goods__species_item" id="most-lighting">– Внешнее, более мощное освещение</li>
+												<li class="goods__species_item" id="edge-nightstand">– Края тумбочки вровень с аквариумом</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<section class="decor"><span class="section__text">Оформление пресноводных аквариумов так же, условно, делится на 3 разновидности:</span>
+									<div class="decor__layout">
+										<div class="decor__species">
+											<ul class="decor__list"><span class="decor__item-wrap"><span class="item-rounded plants"></span></span>
+												<li class="decor__item item__title">Живые растения</li>
+												<li class="decor__item item__text">Кусочек настоящей флоры у вас дома.</li>
+											</ul>
+										</div>
+										<div class="decor__species">
+											<ul class="decor__list"><span class="decor__item-wrap"><span class="item-rounded artificial"></span></span>
+												<li class="decor__item item__title">Искусственные растения</li>
+												<li class="decor__item item__text"> Искусственные растения — Гораздо меньше хлопот</li>
+											</ul>
+										</div>
+										<div class="decor__species">
+											<ul class="decor__list"><span class="decor__item-wrap"><span class="item-rounded pseudo-sea"></span></span>
+												<li class="decor__item item__title">Псевдо-море</li>
+												<li class="decor__item item__text">Пресноводная эмитация морского рифа - значительно бюджетнее и практичнее морского аквариума.</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</div>
+						</section>
+					</div>
+					<div class="wave" id="aquariumCalculator"></div>
+					<div class="calculate">
+						<div class="wrapper">
+							<section class="calculate"> 
+								<div class="calculate__title">Онлайн калькулятор</div>
+								<div class="calculate__controls">
+									<div class="calculate__species">
+										<input type="radio" name="species" value="1" id="standart" hidden checked data-event="change">
+										<label class="calculate__decor_label" for="standart">Стандарт</label>
+										<input type="radio" name="species" value="1.3" id="aquascape" hidden data-event="change">
+										<label class="calculate__decor_label" for="aquascape">Акваскейп</label>
+									</div>
+									<div class="calculate__size">
+										<div class="calculate__size-group">
+											<label class="calculate__size-label" for="aqua-width">Ширина</label>
+											<input class="calculate__size-input" type="text" name="aqua-width" placeholder="в миллиметрах" id="aqua-width" data-size="width" data-event="change"><span class="tooltip">Не менее 800 и не более 3000</span><span class="multiply" aria-hidden="true">&times;</span>
+										</div>
+										<div class="calculate__size-group">
+											<label class="calculate__size-label" for="aqua-length">Длинна</label>
+											<input class="calculate__size-input" type="text" name="aqua-length" placeholder="в миллиметрах" id="aqua-length" data-size="length" data-event="change"><span class="tooltip">Не менее 300 и не более 1000</span><span class="multiply" aria-hidden="true">&times;</span>
+										</div>
+										<div class="calculate__size-group">
+											<label class="calculate__size-label" for="aqua-height">Высота</label>
+											<input class="calculate__size-input" type="text" name="aqua-height" placeholder="в миллиметрах" id="aqua-height" data-size="height" data-event="change"><span class="tooltip">Не менее 300 и не более 1000</span>
+										</div><span class="calculate__size-text"> </span>
+										<div class="total liters">0 л</div>
+									</div>
+									<div class="calculate__decor" id="content-switch">
+										<input type="radio" name="switch" value="260" id="live-plants" hidden data-event="change">
+										<label class="calculate__decor_label" for="live-plants">Живые растения</label>
+										<input type="radio" name="switch" value="240" id="artificial-plants" hidden checked data-event="change">
+										<label class="calculate__decor_label" for="artificial-plants">Искусственные растения</label>
+										<input type="radio" name="switch" value="260" id="pseudo-sea" hidden data-event="change">
+										<label class="calculate__decor_label" for="pseudo-sea">Псевдоморе</label>
+									</div>
+									<div class="total price"> <span></span></div><span class="calculate__text">Указана ориентировочная стоимость. Для уточнения стоимости закажите точный просчет</span>
+									<div class="calculate__buttons"><a class="btn-border-white calculate__to_learn_more" href="#" data-toggle="modal" data-target="#popap-included">Что входит в стоимость?</a>
+										<button class="btn calculate__btn" id="send-calc-val" data-toggle="modal" data-target="#myModal">Подробный расчет</button>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!--.wave-end-->
+				</section>
+				<section class="sea-aquariums" id="sea">
+					<div class="sea-aquariums__bg sea-head">
+						<div class="page-background bg-sea"></div>
+						<div class="header-position">
+							<header class="header__species">
+								<h1 class="species__title">Морской <br><span>аквариум</span></h1>
+							</header>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="about-sea-aqua">
+							<p>
+								Морские аквариумы не только красивы сами по себе, но и придают
+								утонченность интерьеру, в котором находятся. За их обитателями интересно
+								и увлекательно наблюдать. Однако за всей этой красотой стоят немалые затраты сил,
+								времени и денег.
+							</p>
+							<p>  
+								Считается, что такие аквариумы сложны для начинающих, и лучше их создавать
+								опытным заводчикам. Причем сложность  не столько в обслуживании, сколько в
+								правильном запуске этой системы. В любом случае, отнестись к этому
+								делу нужно ответственно и серьезно.
+							</p>
+						</div>
+						<div class="calc_sea-aqua"><a class="cost_calc" href="" data-toggle="modal" data-target="#myModal">Расчет стоимост</a><span>морского аквариума производится индивидуально.</span></div>
+					</div>
+				</section>
+				<section class="experience"> 
+					<div class="experience__wrapp">
+						<div class="experience__title">Мы выполнили более 457 великолепных проектов!</div><a class="btn-border-white to-portfolio-link" href="portfolio.html">Смотреть портфолио</a>
+					</div>
+				</section>
+				<div class="modal fade" id="aquarimsPopup" tabindex="-1" role="dialog" aria-labelledby="aquarimsPopupLabel">
+					<div class="popup-layout aquarium-descr" role="document">
+						<div class="aquarium-descr__title modal-header" id="aquarimsPopupLabel"> Пару слов об этом аквариуме:
+							<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="aquarium-descr__slider">
+							<div class="carousel slide" id="carousel-aquariums" data-ride="carousel">
+								<div class="carousel-inner" role="listbox">
+									<div class="item active"><img class="aquarium-descr__slider-img" src="" alt="" id="img1"></div>
+									<div class="item"><img class="aquarium-descr__slider-img" src="" alt="" id="img2"></div>
+									<div class="item"><img class="aquarium-descr__slider-img" src="" alt="" id="img3"></div>
+									<div class="item"><img class="aquarium-descr__slider-img" src="" alt="" id="img4"></div>
+								</div>
+							</div><a class="left carousel-control" href="#carousel-aquariums" role="button" data-slide="prev"><span class="aqua__prev" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-aquariums" role="button" data-slide="next"><span class="aqua__next" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+							<div class="aquarium-descr__img_about"> </div>
+						</div><span class="aquarium__options">Параметры:</span>
+						<ul class="aquarium__options_list">
+							<li class="aquarium__options_item"><img class="icon-species icon-size" src="img/full-size.svg" alt=""><span class="aquarium__liters"></span></li>
+							<li class="aquarium__options_item"><img class="icon-species" src="img/aquarium.svg" alt=""><span class="aquarium__species"></span></li>
+							<li class="aquarium__options_item"><img class="icon-species icon-rouble" src="img/russian-rouble.svg" alt=""><span class="aquarium__price"></span></li>
+						</ul>
+						<div class="aquarium-descr__btn btn btn-blue" data-toggle="modal" data-target="#myModal">Хочу такой же!</div>
+					</div>
+				</div>
+				<div class="popup-on-phones">
+					<div class="modal fade in" id="modal-about-us" tabindex="-1" role="dialog" aria-labelledby="modal-about">
+						<div class="popap-about-us popup-layout" role="document">
+							<div class="modal-header" id="modal-about">
+								<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							</div>
+							<div class="popap-about-us__header"><img class="logo" alt="Сибирь аква" src="img/logo.svg"></div><span class="about-us">
+								<p>Здравствуйте! Мы — студия аквариумов «Сибирь Аква»</p>
+								<p>Мы специализируемся на производстве и продаже аквариумов.</p>
+								<p>Мы не только изготовляем и продаем аквариумы, но и чистим, обслуживаем, ремонтируем, а также оформляем под ключ любой аквариум.</p>
+								<p>Мы занимаемся дизайнерскими решениями и готовы браться за любой проект.</p></span>
+							<button class="btn btn-blue" data-dismiss="modal" aria-label="Close">Принято!</button>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="popap-included" tabindex="-1" role="dialog" aria-labelledby="price-included">
+					<div class="popup modal-dialog popup__price">
+						<div class="included-price popup-layout" role="document">
+							<div class="modal-header">
+								<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<div class="modal-title price-included__title" id="price-included" role="document"> В стоимость аквариума уже включено:</div>
+							</div>
+							<div class="price-included-block">
+								<div class="price-included-block__title">Аквариумы:</div>
+								<table class="table table-hover">
+									<thead> 
+										<tr>
+											<th class="price-included__table-head">Стандарт</th>
+											<th class="price-included__table-head">Акваскейп</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Выезд замерщика</td>
+											<td>Выезд замерщика</td>
+										</tr>
+										<tr>
+											<td>Аквариум по индивидуальным размерам</td>
+											<td>Аквариум по индивидуальным размерам</td>
+										</tr>
+										<tr>
+											<td>Крышка из анти коррозийных материалов со встроеным влагозащитным освещением</td>
+											<td>Светильник</td>
+										</tr>
+										<tr>
+											<td><span></span></td>
+											<td>Аквариум из Оптивайта без стяжек и ребер жесткости</td>
+										</tr>
+										<tr>
+											<td><span></span></td>
+											<td>Тумба по индивидуальным размерам</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="price-included-block">
+								<div class="price-included-block__title">Оформление</div>
+								<table class="table table-hover"> 
+									<thead> 
+										<tr>
+											<th class="price-included__table-head">Псевдоморе</th>
+											<th class="price-included__table-head">Искусственные растения</th>
+											<th class="price-included__table-head">Живые растения</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Грунт</td>
+											<td>Грунт</td>
+											<td>Грунт</td>
+										</tr>
+										<tr>
+											<td>Набор "Кенийских камне" и песчаника</td>
+											<td>Набор "Кенийских камне" и песчаника</td>
+											<td>Набор "Кенийских камне" и песчаника</td>
+										</tr>
+										<tr>
+											<td>Набор искусственных "кораллов" максимально приближенных к естественным</td>
+											<td>Набор искусственных "кораллов" максимально приближенных к естественным</td>
+											<td>Набор живых растений</td>
+										</tr>
+										<tr>
+											<td>Фон</td>
+											<td>Фон</td>
+											<td>Фон</td>
+										</tr>
+										<tr>
+											<td>Распылитель</td>
+											<td>Распылитель</td>
+											<td>-</td>
+										</tr>
+										<tr>
+											<td>Спектральное освещение</td>
+											<td>Спектральное освещение</td>
+											<td>Спектральные лампы</td>
+										</tr>
+										<tr>
+											<td>Искуственные морские растения</td>
+											<td>Искуственные морские растения</td>
+											<td>-</td>
+										</tr>
+										<tr>
+											<td>Набор Гидро-химии для запуска аквариума</td>
+											<td>Набор Гидро-химии для запуска аквариума</td>
+											<td>Набор био стартеров</td>
+										</tr>
+										<tr>
+											<td>Баллон СО2 с автоматикой</td>
+											<td><span></span></td>
+											<td>Макро и микро удобрения для растений</td>
+										</tr>
+										<tr>
+											<td><span></span></td>
+											<td><span></span></td>
+											<td>Оборудование</td>
+										</tr>
+										<tr>
+											<td><span></span></td>
+											<td><span></span></td>
+											<td>Внешний фильтор</td>
+										</tr>
+										<tr>
+											<td><span></span></td>
+											<td><span></span></td>
+											<td>УФ-стерилизатор</td>
+										</tr>
+										<tr>
+											<td><span></span></td>
+											<td><span></span></td>
+											<td>Компрессор</td>
+										</tr>
+										<tr>
+											<td><span></span></td>
+											<td><span></span></td>
+											<td>Водонагреватель</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="price-included-block price-works">
+									<div class="price-included-block_title">Работы</div>
+									<table class="table table-hover">
+										<thead> 
+											<tr>
+												<th class="price-included__table-head works-head">Для всех аквариумов</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Сборка аквариума</td>
+											</tr>
+											<tr> 
+												<td>Оформление аквариума</td>
+											</tr>
+											<tr>
+												<td>Сборка оборудования для аквариума</td>
+											</tr>
+											<tr>
+												<td>Заселение рыб</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><a class="flamp-widget" href="https://surgut.flamp.ru/firm/sibir_akva_kompaniya_po_dizajjnu_akvariumov-70000001022893537"  data-flamp-widget-type="responsive-new" data-flamp-widget-count="5" data-flamp-widget-id="70000001022893537" data-flamp-widget-width="100%">Отзывы о нас на Флампе</a><script>!function(d,s){var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.async=1;js.src="//widget.flamp.ru/loader.js";fjs.parentNode.insertBefore(js,fjs);}(document,"script");</script>
+				<script>!function(d,s){var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.async=1;js.src="//widget.flamp.ru/loader.js";fjs.parentNode.insertBefore(js,fjs);}(document,"script");</script>
+			</main>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="popup modal-dialog">
+				<div class="callback-dialog popup-layout" role="document">
+					<div class="modal-header">
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<div class="modal-title" id="myModalLabel" role="document">-  Хотите, чтобы мы перезвонили Вам?</div>
+						<div class="callback-subtitle">Оставьте нам Ваши контактные данные</div>
+					</div>
+					<form class="callback__form">
+						<div class="layout-form">
+							<label class="callback__form_label" for="name">Имя</label>
+							<input class="callback__form_input" type="text" id="name" name="Name" placeholder="Введите ваше имя">
+							<input id="hidden-input" namr="calc" type="text" hidden>
+						</div>
+						<div class="layout-form">
+							<label class="callback__form_label" for="phone">Контактный номер</label>
+							<input class="callback__form_input" type="text" id="phone" name="Phone" placeholder="Введите номре телефона">
+						</div>
+						<button class="btn btn-blue callback__btn" type="submit" id="callbackBtn">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<ul class="footer__nav_list">
+				<li class="footer__nav_item"><a class="footer__nav_link" href="freshwater.html">Пресноводные аквариумы</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="sea.html">Морские аквариумы</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="freshwater.html#aquariumCalculator">Калькулятор аквариума</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="bubblepanels.html">Пузырковые панели</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="service.html">Обслуживание</a></li>
+				<li class="footer__nav_item"><a class="footer__nav_link" href="service.html#aquariumService">Калькулятор обслуживания</a></li>
+				<div class="copyright"><img class="logo-developers" src="img/logo-created.png" alt="Студия UNK">
+					<div class="created-by"> <span>Сайт сделан <a class="created-by__link" href="http://unk.im">студией UNK </br></a></span><a class="created-by__link" href>Прочитать о сайте</a></div>
+				</div>
+			</ul>
+		</footer>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="display: none;">
+			<symbol id="wave">
+				<path d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"></path>
+				<path d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z"></path>
+				<path d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z"></path>
+				<path d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z"></path>
+			</symbol>
+		</svg>
+		<div class="water-jar">
+			<div class="water-filling">
+				<div class="percentNum" id="count">0</div>
+				<div class="percentB">%</div>
+			</div>
+			<div class="water" id="water">
+				<svg class="water_wave water_wave_back" viewbox="0 0 560 20">
+					<use xlink:href="#wave"></use>
+				</svg>
+				<svg class="water_wave water_wave_front" viewbox="0 0 560 20">
+					<use xlink:href="#wave"></use>
+				</svg>
+			</div>
+		</div>
+		<div class="preloader"></div>
+	</body>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.mobile.custom.min.js">  </script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/calculate.js"></script>
+	<script src="js/validateForm.js"></script>
+	<script src="js/send-calc-val.js"></script>
+	<script>
+		var cnt=document.getElementById("count"); 
+		var water=document.getElementById("water");
+		var percent=cnt.innerText;
+		var interval;
+		interval=setInterval(function(){ 
+		  percent++; 
+		  cnt.innerHTML = percent; 
+		  water.style.transform='translate(0'+','+(100-percent)+'%)';
+		  if(percent==100){
+		    clearInterval(interval);
+		    
+		  }
+		},10);
+		$(window).load( () => {
+		  $('.preloader, .water-jar').fadeOut();  
+		})
+		
+	</script>
+	<script>!function(d,s){var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.async=1;js.src="//widget.flamp.ru/loader.js";fjs.parentNode.insertBefore(js,fjs);}(document,"script");</script>
+</html>

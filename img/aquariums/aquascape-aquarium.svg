@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="134.566mm" height="150.483mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 284102 317707"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:422.249}
+    .fil0 {fill:none}
+    .fil1 {fill:#E6E6E6}
+    .fil2 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="211" y="175846" width="282679" height="13544"/>
+  <rect class="fil0 str0" x="211" y="189390" width="281934" height="127733"/>
+  <rect class="fil0 str0" x="211" y="189390" width="116533" height="127733"/>
+  <rect class="fil0 str0" x="157391" y="189390" width="124754" height="127733"/>
+  <rect class="fil0 str0" x="116744" y="268360" width="40647" height="10965"/>
+  <rect class="fil1 str0" x="86263" y="235196" width="2979" height="29047"/>
+  <rect class="fil1 str0" x="190908" y="235196" width="2979" height="29047"/>
+  <polygon class="fil0 str0" points="283360,174214 1456,176978 399,34257 283890,33727 "/>
+  <line class="fil0 str0" x1="19228" y1="48996" x2="19228" y2= "162950" />
+  <line class="fil0 str0" x1="262033" y1="51602" x2="262033" y2= "90332" />
+  <line class="fil0 str0" x1="261660" y1="113421" x2="261660" y2= "153640" />
+  <line class="fil0 str0" x1="7103" y1="37243" x2="17158" y2= "47298" />
+  <line class="fil0 str0" x1="268922" y1="40587" x2="281448" y2= "33355" />
+  <line class="fil0 str0" x1="33751" y1="43782" x2="242296" y2= "43782" />
+  <rect class="fil2 str0" x="211" y="303952" width="282679" height="13544"/>
+  <line class="fil0 str0" x1="2402" y1="34252" x2="33755" y2= "5797" />
+  <line class="fil0 str0" x1="9479" y1="34238" x2="33010" y2= "12128" />
+  <rect class="fil1 str0" x="33755" y="211" width="215620" height="18992"/>
+  <line class="fil0 str0" x1="279353" y1="32731" x2="249676" y2= "5797" />
+  <line class="fil0 str0" x1="270787" y1="32423" x2="249188" y2= "12128" />
+  <line class="fil0 str0" x1="33755" y1="19203" x2="38596" y2= "23672" />
+  <polyline class="fil0 str0" points="249374,19203 245278,23300 38596,23300 "/>
+ </g>
+</svg>
